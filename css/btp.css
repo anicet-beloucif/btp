@@ -1,0 +1,674 @@
+/* Page Présentation */
+/* Part de Julien */
+/* Partie de la barre de navigation */
+#LogoParede
+{
+    width: 200px;
+    height: 124px;
+}
+#Accueil
+{
+    margin-left: 405px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+}
+#Accueil:link
+{
+    color: gray;
+}
+#Accueil:visited
+{
+    color: gray;
+}
+#Accueil:focus
+{
+    color:gray;
+}
+#Accueil:hover
+{
+    color: #fd5502;
+}
+#Accueil:active
+{
+    color: #fd5502;
+}
+@font-face
+{
+	font-family: 'bebasneue';
+	src: url("font/bebasneue-regular-webfont.woff") format("woff"),
+           url("font/bebasneue-regular-webfont.woff2") format("woff2");
+}
+#presentation
+{
+    margin-left: 805px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    color: black;
+    transform: translateY(-285%);
+}
+#equipe
+{
+    margin-left: 1105px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+    transform: translateY(-202%);
+}
+#equipe:link
+{
+    color: gray;
+}
+#equipe:visited
+{
+    color: gray;
+}
+#equipe:focus
+{
+    color:gray;
+}
+#equipe:hover
+{
+    color: #fd5502;
+}
+#equipe:active
+{
+    color: #fd5502;
+}
+#Contact
+{
+    margin-left: 1305px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+    transform: translateY(-202%);
+}
+#Contact:link
+{
+    color: gray;
+}
+#Contact:visited
+{
+    color: gray;
+}
+#Contact:focus
+{
+    color:gray;
+}
+#Contact:hover
+{
+    color: #fd5502;
+}
+#Contact:active
+{
+    color: #fd5502;
+}
+#creations
+{
+    margin-left: 1505px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+    transform: translateY(-202%);
+}
+#creations:link
+{
+    color: gray;
+}
+#creations:visited
+{
+    color: gray;
+}
+#creations:focus
+{
+    color:gray;
+}
+#creations:hover
+{
+    color: #fd5502;
+}
+#creations:active
+{
+    color: #fd5502;
+}
+.fond-de-nav
+{
+    background-color: white;
+    width: 1855px;
+    height: 120px;
+}
+/* Partie de mise en page */
+#presentation-fond
+{
+    width: 1855px;
+}
+#intro
+{
+    position: absolute;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'archivoblack';
+    color: white;
+    margin-top: 200px;
+    margin-left: 525px;
+    animation-name: transition;
+    animation-duration: 1.5s;
+}
+@font-face
+{
+	font-family: 'archivoblack';
+	src: url("font/archivoblack-regular-webfont.woff") format("woff"),
+           url("font/archivoblack-regular-webfont.woff2") format("woff2");
+}
+#paragraphe1
+{
+    position: absolute;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 290px;
+    margin-left: 250px;
+    color: white;
+    font-family: 'overlock';
+    animation-name: transition;
+    animation-duration: 1.5s;
+}
+@font-face
+{
+	font-family: 'overlock';
+	src: url("font/overlock-black-webfont.woff") format("woff"),
+           url("font/overlock-black-webfont.woff2") format("woff2");
+}
+@keyframes transition
+{
+    from { transform: scaleY(0); }
+}
+/* Footer */
+#footer-presentation
+{
+    background-color: white;
+    width: 1855px;
+    height: 120px;
+}
+#Accueil2
+{
+    margin-left: 305px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+}
+#Accueil2:link
+{
+    color: gray;
+}
+#Accueil2:visited
+{
+    color: gray;
+}
+#Accueil2:focus
+{
+    color:gray;
+}
+#Accueil2:hover
+{
+    color: #fd5502;
+}
+#Accueil2:active
+{
+    color: #fd5502;
+}
+#presentation2
+{
+    margin-left: 555px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    color: black;
+    transform: translateY(+90%);
+}
+#equipe2
+{
+    margin-left: 905px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+    transform: translateY(-70%);
+}
+#equipe2:link
+{
+    color: gray;
+}
+#equipe2:visited
+{
+    color: gray;
+}
+#equipe2:focus
+{
+    color:gray;
+}
+#equipe2:hover
+{
+    color: #fd5502;
+}
+#equipe2:active
+{
+    color: #fd5502;
+}
+#Contact2
+{
+    margin-left: 1205px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+    transform: translateY(-70%);
+}
+#Contact2:link
+{
+    color: gray;
+}
+#Contact2:visited
+{
+    color: gray;
+}
+#Contact2:focus
+{
+    color:gray;
+}
+#Contact2:hover
+{
+    color: #fd5502;
+}
+#Contact2:active
+{
+    color: #fd5502;
+}
+#creations2
+{
+    margin-left: 1455px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+    transform: translateY(-70%);
+}
+#creations2:link
+{
+    color: gray;
+}
+#creations2:visited
+{
+    color: gray;
+}
+#creations2:focus
+{
+    color:gray;
+}
+#creations2:hover
+{
+    color: #fd5502;
+}
+#creations2:active
+{
+    color: #fd5502;
+}
+/* Page réalisation */
+/* Part de Julien */
+/* Partie de la barre de navigation */
+#presentation3
+{
+    margin-left: 605px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+}
+#presentation3:link
+{
+    color: gray;
+}
+#presentation3:visited
+{
+    color: gray;
+}
+#presentation3:focus
+{
+    color:gray;
+}
+#presentation3:hover
+{
+    color: #fd5502;
+}
+#presentation3:active
+{
+    color: #fd5502;
+}
+#equipe3
+{
+    margin-left: 905px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+}
+#equipe3:link
+{
+    color: gray;
+}
+#equipe3:visited
+{
+    color: gray;
+}
+#equipe3:focus
+{
+    color:gray;
+}
+#equipe3:hover
+{
+    color: #fd5502;
+}
+#equipe3:active
+{
+    color: #fd5502;
+}
+#Contact3
+{
+    margin-left: 1155px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+}
+#Contact3:link
+{
+    color: gray;
+}
+#Contact3:visited
+{
+    color: gray;
+}
+#Contact3:focus
+{
+    color:gray;
+}
+#Contact3:hover
+{
+    color: #fd5502;
+}
+#Contact3:active
+{
+    color: #fd5502;
+}
+#creations3
+{
+    margin-left: 1605px;
+    font-family:'bebasneue';
+    font-size: 40px;
+    position: absolute;
+    transform: translateY(-280%);
+}
+/* Partie de mise en page */
+#realisation1
+{
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'archivoblack';
+    color: white;
+    margin-top: 200px;
+    margin-left: 50px;
+    animation-name: transition;
+    animation-duration: 1.5s;
+}
+#realisation2
+{
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'archivoblack';
+    color: white;
+    margin-top: 200px;
+    margin-left: 200px;
+    animation-name: transition;
+    animation-duration: 1.5s;
+}
+#realisation3
+{
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'archivoblack';
+    color: white;
+    margin-top: 200px;
+    margin-left: 30px;
+    animation-name: transition;
+    animation-duration: 1.5s;
+}
+/* Page équipe */
+/* Part de Julien et Anicet 50/50 */
+/* Partie de mise en page */
+#intro2
+{
+    position: absolute;
+    text-align: center;
+    font-size: 105px;
+    font-family: 'archivoblack';
+    color: white;
+    margin-top: 250px;
+    margin-left: 685px;
+    animation-name: transition;
+    animation-duration: 1.5s;
+}
+#tiago-profil
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 250px;
+    max-height: 150px;
+}
+#tiago-description
+{
+    position: absolute;
+    font-family: 'archivoblack';
+    color: white;
+    margin-top: 800px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+#sandro-profil
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 765px;
+    max-height: 150px;
+}
+#sandro-description
+{
+    position: absolute;
+    font-family: 'archivoblack';
+    color: white;
+    margin-top: 800px;
+    margin-left: 820px;
+    font-size: 20px;
+}
+#pablo-profil
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1275px;
+    max-height: 150px;
+}
+#pablo-description
+{
+    position: absolute;
+    font-family: 'archivoblack';
+    color: white;
+    margin-top: 800px;
+    margin-left: 1350px;
+    font-size: 20px;
+}
+
+#martin-profil
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1275px;
+    max-height: 150px;
+}
+#martin-description
+{
+    position: absolute;
+    font-family: 'archivoblack';
+    color: white;
+    margin-top: 800px;
+    margin-left: 1350px;
+    font-size: 20px;
+}
+
+#karim-profil
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1275px;
+    max-height: 150px;
+}
+#karim-description
+{
+    position: absolute;
+    font-family: 'archivoblack';
+    color: white;
+    margin-top: 800px;
+    margin-left: 1350px;
+    font-size: 20px;
+}
+
+
+/*Début Accueil*/
+
+.imgaccueil {position: relative;
+    text-align: center;}
+#imgaccueil {max-width: 1200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 140%;     }
+#nomentreprise {background-color: white;
+       font-size: 60px;
+       opacity: 0.75;
+       border-radius: 25px;
+       position: absolute;
+       top: 40%;
+       transform: translate(120%);
+       padding: 25px 25px 25px 25px;}
+#sloganentreprise {background-color: red;
+           text-align: center;
+           position: absolute;
+           font-size: 40px;
+           top: 60%;
+           transform:translate(40%);}
+
+#boutonmaconnerie {width: 200px;
+          height: 100px;
+          font-size: 30px;
+          border-radius: 25px;
+          border-color: black;
+          border-style:solid;
+          border-width: 0.3em;
+          background-color: lightblue;
+          font-weight: bold;
+          position: absolute;
+          top: 80%;
+          transform: translate(330%);}
+
+#boutoncontact      {width: 200px;
+               height: 100px;
+               font-size: 30px;
+               border-radius: 25px;
+               border-color: white;
+               border-style:solid;
+               border-width: 0.3em;
+               font-weight:bold;
+               color: white;
+               background-color: transparent;
+               position: absolute;
+               top: 80%;
+               transform: translate(520%);}
+
+#prestations {display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       text-align: center;}
+
+.titreaccueil1,.titreaccueil2 {text-align: center;
+                       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+.titreaccueil1 {color: gray;}
+.titreaccueil2 {color: #3B9ED9;
+       font-size: 25px;
+       font-weight: bold;}
+
+#presta1, #presta2, #presta3, #presta4 {max-width: 180px;
+                               vertical-align: middle;
+                               border-radius: 25px;}
+#presta1 {background-color: lightpink;}
+#presta2 {background-color:lightsalmon;}
+#presta3 {background-color: lightskyblue;}
+#presta4 {background-color: lightseagreen;}
+
+#div1accueil {margin-bottom: 5%;}
+.imageaccueil {margin-bottom: 5%;}
+
+#div2accueil {text-align: center;}
+
+
+#garanties {display: flex;
+   flex-direction: row;
+    align-content: center;
+       justify-content: space-evenly;}
+#macotrad, #certif {max-width: 25%;}
+
+
+.separation {width: 50%;
+       margin-left: 25%;
+       text-align: center;
+    border-color: lightslategray;
+    border-bottom-style: solid;}
+
+
+
+/*Fin Accueil*/
+
+
+/* Début Contact*/
+
+#aligner {display: flex;
+       flex-direction: row;
+       margin-top:40px;
+       margin-left: 40px;
+       padding-top: 40px;
+       padding-left: 40px;}
+
+#secondaire {border-left-style: solid;
+               border-color: black;
+               border-width: 0.001em;
+               margin-left: 40px;
+               padding-left: 40px;}
+
+#principale {font-size: 30px;}
+.titrecontact {color: #3B9ED9;
+               font-weight: bold;
+               border-bottom: solid;
+               border-color: black;
+               border-width: 00.001em;}
+
+
+#infocontact {display: flex;
+               flex-wrap: wrap;
+               justify-content: space-evenly;
+               vertical-align: middle;
+               text-align: center;}
+
+#textcontact {text-align: center;}
+
+#imgcontact {height: 200px;}
+
+
+
+#maps {display: flex;
+      justify-content: center;}
+
+
+
+/* Fin Contact*/
